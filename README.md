@@ -21,10 +21,27 @@ Publication status: under review
 Contact: Sarah Hülsen ([sarah.huelsen@usys.ethz.ch](sarah.huelsen@usys.ethz.ch))
 
 ## Content:
-`extract_mangrove_centroids.ipynb`: Script to calculate mangrove centroids and area from GMW global mangrove extents for 2020
-`extract_priority_areas.ipynb`: Script to merge mangrove conservation priority areas (including ecosystem service data) from Dabalà et al. and merge with mangrove centroids
-`extract_rslr.ipynb`: Script to extract RSLR data and merge with global mangrove centroids
-`calc_frequency_change.py`: Script to calculate TC frequency changes and merge with mangrove centroids
+This directory contains all the necessary code to replicate the analysis of the above mentioned manuscript. The files should be run in the order listed here:
+
+`mangrove_data_prep.ipynb`: Notebook to calculate mangrove centroids and area from GMW global mangrove extents for 2020, extract RSLR data and merge with global mangrove centroids.
+
+`calc_frequency_change.py`: Script to calculate TC frequency changes and merge with mangrove centroids.
+
+`risk_index_analysis.ipynb`: Notebook to calculate combined RSLR and TC risk index, merge index with mangrove conservation priority areas (including ecosystem service data) from Dabalà et al., and calculate all further results. Includes tables shown in manuscript.
+
+`figures.ipynb`: Notebook containing code for all main figures of the manuscript.
+
+## Data sources:
+Mangroves: Bunting, P., Rosenqvist, A., Lucas, R., Rebelo, L.-M., Hilarides, L., Thomas, N., Hardy, A., Itoh, T., Shimada, M., & Finlayson, C. (2018). The Global Mangrove Watch—A New 2010 Global Baseline of Mangrove Extent. Remote Sensing, 10(10), 1669. https://doi.org/10.3390/rs10101669
+
+Mangrove conservation priority areas: Dabalà, A., Dahdouh-Guebas, F., Dunn, D. C., Everett, J. D., Lovelock, C. E., Hanson, J. O., Buenafe, K. C. V., Neubert, S., & Richardson, A. J. (2023). Priority areas to protect mangroves and maximise ecosystem services. Nature Communications, 14(1), Article 1. https://doi.org/10.1038/s41467-023-41333-3
+
+Sea level rise data: Garner, G. G., Hermans, T., Kopp, R. E., Slangen, A. B. A., Edwards, T. L., Levermann, A., Nowicki, S., Palmer, M. D., Smith, C., Fox-Kemper, B., Hewitt, H. T., Xiao, C., Aðalgeirsdóttir, G., Drijfhout, S. S., Golledge, N. R., Hemer, M., Krinner, G., Mix, A., Notz, D., ... Pearson, B. (2021). IPCC AR6 Sea Level Projections (Version 20210809). Zenodo. https://doi.org/10.5281/zenodo.5914710
+
+The tropical cyclone tracks were kindly provided by Kerry Emanuel, and are based on the following sources: 
+Emanuel, K., Ravela, S., Vivant, E., & Risi, C. (2006). A Statistical Deterministic Approach to Hurricane Risk Assessment. Bulletin of the American Meteorological Society, 87(3), 299– 314. https://doi.org/10.1175/BAMS-87-3-299
+
+Emanuel, K. (2008). The Hurricane-Climate Connection. Bulletin of the American Meteorological Society, 89, ES10–ES20. https://doi.org/DOI:10.1175/BAMS-89-5-Emanuel
 
 ## Requirements
 Requires:
