@@ -1,5 +1,6 @@
 """
-Script to calculate TC frequency changes and merge with mangrove centroids
+Code to replicate main results of Mangroves and their services are at risk from tropical cyclones and sea level rise under climate change.
+Script to calculate TC frequency changes and merge with mangrove centroids.
 
 Author: Sarah Hülsen
 
