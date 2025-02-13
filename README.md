@@ -6,7 +6,7 @@ These scripts reproduce the main results of the manuscript:
  
 Sarah Hülsen (1,2), Laure E. Dee (3,4), Chahan, M. Kropf (1,2), Simona Meiler (1,2,5), and David N. Bresch (1,2)
 
-Publication status: under review
+Publication status: under review ([preprint](https://doi.org/10.21203/rs.3.rs-5346064/v1))
 
 (1) Institute for Environmental Decisions, ETH Zurich, Switzerland
 
@@ -18,7 +18,7 @@ Publication status: under review
 
 (5) Department of Civil and Environmental Engineering, Stanford University, CA, USA
 
-Contact: Sarah Hülsen ([sarah.huelsen@usys.ethz.ch](sarah.huelsen@usys.ethz.ch))
+Contact: [Sarah Hülsen](https://wcr.ethz.ch/people/person-detail.sarah-huelsen.html) ([sarah.huelsen@usys.ethz.ch](sarah.huelsen@usys.ethz.ch))
 
 ## Content:
 This directory contains all the necessary code to replicate the analysis of the above mentioned manuscript. The files should be run in the order listed here:
