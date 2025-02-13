@@ -23,13 +23,13 @@ Contact: Sarah Hülsen ([sarah.huelsen@usys.ethz.ch](sarah.huelsen@usys.ethz.ch)
 ## Content:
 This directory contains all the necessary code to replicate the analysis of the above mentioned manuscript. The files should be run in the order listed here:
 
-`mangrove_data_prep.ipynb`: Notebook to calculate mangrove centroids and area from GMW global mangrove extents for 2020, extract RSLR data and merge with global mangrove centroids.
+`01_mangrove_data_prep.ipynb`: Notebook to calculate mangrove centroids and area from GMW global mangrove extents for 2020, extract RSLR data and merge with global mangrove centroids.
 
-`calc_frequency_change.py`: Script to calculate TC frequency changes and merge with mangrove centroids.
+`02_calc_frequency_change.py`: Script to calculate TC frequency changes and merge with mangrove centroids.
 
-`risk_index_analysis.ipynb`: Notebook to calculate combined RSLR and TC risk index, merge index with mangrove conservation priority areas (including ecosystem service data) from Dabalà et al., and calculate all further results. Includes tables shown in manuscript.
+`03_risk_index_analysis.ipynb`: Notebook to calculate combined RSLR and TC risk index, merge index with mangrove conservation priority areas (including ecosystem service data) from Dabalà et al., and calculate all further results. Includes tables shown in manuscript.
 
-`figures.ipynb`: Notebook containing code for all main figures of the manuscript.
+`04_figures.ipynb`: Notebook containing code for all main figures of the manuscript.
 
 ## Data sources:
 Mangroves: Bunting, P., Rosenqvist, A., Lucas, R., Rebelo, L.-M., Hilarides, L., Thomas, N., Hardy, A., Itoh, T., Shimada, M., & Finlayson, C. (2018). The Global Mangrove Watch—A New 2010 Global Baseline of Mangrove Extent. Remote Sensing, 10(10), 1669. https://doi.org/10.3390/rs10101669
