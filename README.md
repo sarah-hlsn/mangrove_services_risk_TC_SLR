@@ -29,7 +29,7 @@ This directory contains all the necessary code to replicate the analysis of the 
 
 `03_risk_index_analysis.ipynb`: Notebook to calculate combined RSLR and TC risk index, merge index with mangrove conservation priority areas (including ecosystem service data) from Dabalà et al., and calculate all further results. Includes tables shown in manuscript.
 
-`04_figures.ipynb`: Notebook containing code for all main figures of the manuscript.
+`04_figures.ipynb`: Notebook containing code for all main figures of the manuscript. Data to replicate the figures shown is available from Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14869916.svg)](https://doi.org/10.5281/zenodo.14869916)
 
 ## Data sources:
 Mangroves: Bunting, P., Rosenqvist, A., Lucas, R., Rebelo, L.-M., Hilarides, L., Thomas, N., Hardy, A., Itoh, T., Shimada, M., & Finlayson, C. (2018). The Global Mangrove Watch—A New 2010 Global Baseline of Mangrove Extent. Remote Sensing, 10(10), 1669. https://doi.org/10.3390/rs10101669
