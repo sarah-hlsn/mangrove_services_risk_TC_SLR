@@ -54,3 +54,7 @@ Computationally demanding calculations were run on the [Euler cluster of ETH Zur
 Documentation for CLIMADA is available on Read the Docs:
 * [online (recommended)](https://climada-python.readthedocs.io/en/stable/)
 * [PDF file](https://buildmedia.readthedocs.org/media/pdf/climada-python/stable/climada-python.pdf)
+
+## How to cite this source:
+Sarah Hülsen. (2025). sarah-hlsn/mangrove_services_risk_TC_SLR: Code for "Mangroves and their services are at risk from tropical cyclones and sea level rise under climate change" (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14870133 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14870133.svg)](https://doi.org/10.5281/zenodo.14870133)
